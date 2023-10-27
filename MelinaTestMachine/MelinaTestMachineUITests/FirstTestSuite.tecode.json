@@ -1,0 +1,38 @@
+[
+    { "mnemonic" : "suiteBegin", "operands": ["First aaaaabbbbb test suite"] },
+
+    { "mnemonic" : "scenarioBegin", "operands": ["F scenario"] },
+    { "mnemonic" : "application", "operands": [] },
+    { "mnemonic" : "launchEnvironment", "operands": ["Local-Mock-Test-Case-Identifier", "select_restricted_item"] },
+    { "mnemonic" : "launchEnvironment", "operands": ["Experiments-Identifier-MAPPTripSavings", "true"] },
+    { "mnemonic" : "launch", "operands": [] },
+    { "mnemonic" : "view", "operands": ["Tappable view"] },
+    { "mnemonic" : "waitForExistence", "operands": ["5"] },
+    { "mnemonic" : "assertBool", "operands": ["true"] },
+    { "mnemonic" : "label", "operands": [] },
+    { "mnemonic" : "assertString", "operands": ["Hello world"] },
+    { "mnemonic" : "tap", "operands": [] },
+    { "mnemonic" : "view", "operands": ["Popup"] },
+    { "mnemonic" : "waitForExistence", "operands": ["5"] },
+    { "mnemonic" : "assertBool", "operands": ["true"] },
+    { "mnemonic" : "terminate", "operands": [] },
+    { "mnemonic" : "scenarioEnd", "operands": ["F scenario"] },
+
+
+    { "mnemonic" : "scenarioBegin", "operands": ["F1 scenario"] },
+    { "mnemonic" : "application", "operands": [] },
+    { "mnemonic" : "launch", "operands": [] },
+    { "mnemonic" : "button", "operands": ["Button d"] },
+    { "mnemonic" : "isHittable", "operands": [] },
+    { "mnemonic" : "jumpIfTrue", "operands": ["5"] },
+    { "mnemonic" : "scrollView", "operands": ["Scroll view"] },
+    { "mnemonic" : "swipeUp", "operands": [] },
+    { "mnemonic" : "jump", "operands": ["-6"] },
+    { "mnemonic" : "textField", "operands": ["TextField 1"] },
+    { "mnemonic" : "tap", "operands": [] },
+    { "mnemonic" : "typeText", "operands": ["My text"] },
+    { "mnemonic" : "terminate", "operands": [] },
+    { "mnemonic" : "scenarioEnd", "operands": ["F1 scenario"] },
+
+    { "mnemonic" : "suiteEnd", "operands": ["First aaaaabbbbb test suite"] }
+]
